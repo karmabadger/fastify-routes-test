@@ -25,6 +25,7 @@
   "dependencies": {
     "fastify": "^3.28.0",
     "fastify-autoroutes": "^2.1.3",
-    "fastify-file-routes": "^1.1.2"
+    "fastify-file-routes": "^1.1.2",
+    "tsc-alias": "^1.6.6"
   }
 }

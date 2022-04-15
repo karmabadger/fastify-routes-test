@@ -1,4 +1,4 @@
-import { FastifyInstance } from 'fastify'
+import { FastifyInstance, FastifyReply, FastifyRequest } from 'fastify'
 import { Resource } from 'fastify-autoroutes'
 
 export default (fastify: FastifyInstance) => <Resource> {

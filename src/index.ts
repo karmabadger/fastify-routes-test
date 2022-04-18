@@ -5,7 +5,7 @@ const app: FastifyInstance = fastify({ logger: true });
 
 const startServer = async () => {
   await app.register(autoroutes.default, {
-    dir: "./src/routes",
+    dir: "./routes",
     prefix: "/api/v1", // -> optional
   });
 
